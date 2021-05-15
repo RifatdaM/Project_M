@@ -1,0 +1,72 @@
+/* custom font */
+@font-face {
+    src: url(/font/BebasNeue-Regular.ttf);
+    font-family: bebas;
+  }
+  
+  /* color */
+  :root {
+    /* MAIN COLOR */
+    --color-main: #f09328;
+    --color-secondary: #f3a652;
+    --color-secondary-dark: #bf8749;
+    --color-light-hard: #f7ba7a;
+    --color-light-soft: #facfa1;
+    --color-dark-hard: ##907353;
+    --color-dark-soft: ##62574b;
+
+    /* TEXT */
+    --text-dark:#231f20;
+    --text-light: #fce5cc;
+
+  
+    /* BLACK */
+    --black: #222;
+    --black2: #555;
+    --black3: #252525;
+    --black4: #000;
+    --black5: #212529;
+  
+    /* GRAY */
+    --gray: #959595;
+    --gray2: #666;
+    --gray3: #ccc;
+  
+    /* WHITE */
+    --white: #fff;
+  }
+  
+  /* browser reset */
+  *,
+  *::after,
+  *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+    font-size: 62.5%; /* 10px */
+  }
+  body,
+  input {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    font-size: 1.6rem;
+  }
+  img {
+    max-width: 100%;
+  }
+  a {
+    text-decoration: none;
+  }
+  ul {
+    list-style: none;
+  }
+  h3,
+  h4 {
+    font-weight: 500;
+  }
+
+  
