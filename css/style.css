@@ -375,7 +375,6 @@ nav img {
   }
 }
 
-
 /* Our Product section */
 
 .title__container {
@@ -423,6 +422,9 @@ nav img {
   height: 25rem;
   padding: 0.5rem 0;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .product__header img {
   max-width: 100%;
@@ -546,43 +548,100 @@ nav img {
 }
 
 /* service section */
-.grid{
+.grid {
   display: grid;
   grid-gap: 6rem;
-  grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   align-items: start;
 }
-.grid-item{
+.grid-item {
   background-color: var(--white);
   overflow: hidden;
-  box-shadow: 0 3rem 6rem rgba(0,0,0,.1);
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: 0.2s;
 }
-.grid-item:hover{
-  transform: translateY(-.5%);
+.grid-item:hover {
+  transform: translateY(-0.5%);
   box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.2);
 }
-.card-img{
-display: block;
-width: 100%;
-height: 20rem;
-object-fit: cover;
+.card-img {
+  display: block;
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
 }
-.card-content{
+.card-content {
   padding: 3rem;
 }
-.card-header{
+.card-header {
   font-family: bebas, "Poppins", sans-serif;
   font-size: 3.2rem;
   font-weight: 500;
   color: var(--text-dark);
   margin-bottom: 1.6rem;
 }
-.card-text{
+.card-text {
   font-size: 1.8rem;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   line-height: 1.7;
   color: var(--black4);
   margin-bottom: 2.6rem;
+}
+.card-btn {
+  display: block;
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 2.4rem;
+  text-align: center;
+  color: var(--text-light);
+  background-color: var(--color-main);
+  border: none;
+  transition: 0.2s;
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+}
+.card-btn:hover,
+.card-btn:active {
+  background-color: var(--color-secondary);
+}
+.service-box {
+  height: 10rem;
+  background-color: var(--color-main);
+}
+
+.service__bottom-textbtn {
+  display: flex;
+  font-family: bebas, "Poppins", sans-serif;
+  height: 10rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.text {
+  font-size: 3.2rem;
+  color: var(--text-light);
+}
+@media only screen and (max-width: 846px){
+  .text {
+    font-size: 2.4rem;
+  }
+}
+@media only screen and (max-width: 666px){
+  .text {
+    font-size: 1.6rem;
+  }
+}
+
+/* contact us section */
+.section__titles h2 {
+  font-family: bebas, "Poppins", sans-serif;
+  font-size: 6.4rem;
+  font-weight: inherit;
+}
+.contactUs .title__container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 auto;
+  padding: 2rem 0;
 }
