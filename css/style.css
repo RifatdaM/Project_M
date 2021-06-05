@@ -675,7 +675,7 @@ nav img {
 
 /* form */
 .col .inputBox{
-  margin-bottom: 10rem;
+  margin-bottom: 2rem;
 }
 .home-form{
   margin-top: 4rem;
@@ -709,7 +709,7 @@ nav img {
   font-size: 1.8rem;
   padding: 0 10px;
   z-index: 1;
-  color: var(--white);
+  color: var(--black4);
 }
 .home-form .row100 .inputBox .ftext{
   position: absolute;
