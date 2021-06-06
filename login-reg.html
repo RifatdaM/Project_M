@@ -27,7 +27,8 @@
     <title>Log in</title>
   </head>
   <body>
-    <div class="login-wrapper">
+    <div class="login-body">
+      <div class="login-wrapper">
         <div class="login-headline">
             <h1>Welcome, make your life easy</h1>
         </div>
@@ -52,9 +53,33 @@
                     <input type="password" name="password2" placeholder="Confirm Password" required>
                 </div>
                 <button type="submit">Sign Up</button>
+                <div class="account-exist">
+                  Already have an account? <a href="#" id="login">Login</a>
+                </div>
             </div>
+            <div class="login-signin">
+              <div class="form-group">
+                  <input type="email" name="email" placeholder="Email" required>
+              </div>
+              <div class="form-group">
+                  <input type="password" name="password1" placeholder="Password" required>
+              </div>
+              <div class="forget-password">
+                <div class="check-box">
+                  <input type="checkbox" id="checkbox">
+                  <label for="checkbox">Remember me</label>
+                </div>
+                <a href="#">Forget password?</a>
+              </div>
+              <button type="submit">Log In</button>
+              <div class="account-exist">
+                Don't have an account? <a href="#" id="signup">Signup</a>
+              </div>
+          </div>
         </form>
     </div>
+    </div>
+    
 
     <script src="./js/app.js"></script>
   </body>
