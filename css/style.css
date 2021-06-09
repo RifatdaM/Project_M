@@ -798,7 +798,109 @@ nav img {
 .login-wrapper .login-headline{
   text-align: center;
   padding-bottom: 48px;
+  
+}
+.login-wrapper .login-headline h1{
   font-family: bebas, "Poppins", sans-serif;
   font-weight: 100;
-  font-size: 2.4rem;
+  font-size: 4.2rem;
+  line-height: 52px;
+}
+.login-wrapper .login-form{
+  max-width: 350px;
+  width: 100%;
+  margin: auto;
+}
+.login-wrapper .form-group{
+  margin-bottom:15px ; 
+}
+.login-wrapper .form-group input{
+  display: block;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  letter-spacing: -0.1px;
+  padding: 11px 15px;
+  height: 48px;
+  border-radius: 5px;
+  color: var(--text-dark);
+  border: 1px solid var(--color-main);
+  box-shadow: none;
+  width: 100%;
+}
+.login-wrapper .form-group input:focus{
+  outline: none;
+}
+.login-wrapper .form-group input::placeholder{
+  color: var(--text-dark);
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+.login-wrapper .account-exist{
+  color: var(--text-dark);
+  border-top:1px solid var(--gray3) ;
+  padding-top: 20px;
+  text-align: center;
+}
+.login-wrapper .account-exist a{
+  color: var(--color-main);
+}
+.login-wrapper .forget-password{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+.login-wrapper .forget-password a{
+  color: var(--color-main);
+}
+.login-wrapper .forget-password .check-box{
+  font-size: 1.5rem;
+  color: var(--text-dark);
+}
+.login-signup.inActive{
+  display: none;
+}
+.login-signin{
+  display: none;
+}
+.login-signin.active{
+  display: block;
+}
+@media (max-width:1030px) {
+  .login-wrapper::before{
+    left:-25%;
+    min-height: 100vh;
+    height: 500px;
+  }
+}
+@media (max-width: 757px) {
+  .login-wrapper{
+    max-width: 550px;
+  }
+  .login-wrapper .login-headline h1{
+    font-size: 2.2rem;
+    line-height: 25px;
+  }
+}
+
+
+
+/* Buttons all */
+.login-wrapper .btn__signup-login{
+  width: 100%;
+  margin: 15px 0 30px;
+  font-size: 1.4rem;
+  line-height: 22px;
+  font-weight: 700;
+  padding: 12px;
+  height: 48px;
+  text-transform: uppercase;
+  color: var(--white);
+  background-color: var(--color-main);
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+.login-wrapper .btn__signup-login:focus{
+  outline: none;
 }

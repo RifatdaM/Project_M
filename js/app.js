@@ -5,6 +5,10 @@ const menu = document.querySelector(".nav__menu");
 const scrollLink = document.querySelectorAll(".scroll-link");
 const navContainer = document.querySelector(".nav__menu");
 
+// login
+
+
+// hamburger manu
 navOpen.addEventListener("click", () => {
   menu.classList.add("open");
   document.body.classList.add("active");
@@ -18,3 +22,5 @@ navClose.addEventListener("click", () => {
   navContainer.style.left = "-30rem";
   navContainer.style.width = "0";
 });
+
+// login

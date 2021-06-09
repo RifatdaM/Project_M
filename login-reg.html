@@ -44,7 +44,7 @@
                     <input type="email" name="email" placeholder="Email" required>
                 </div>
                 <div class="form-group">
-                    <input type="number" name="Phonenumber" placeholder="Phone Number" required>
+                    <input type="tel" name="Phonenumber" pattern="[0-9]{11}" placeholder="Phone Number" required>
                 </div>
                 <div class="form-group">
                     <input type="password" name="password1" placeholder="Password" required>
@@ -52,7 +52,7 @@
                 <div class="form-group">
                     <input type="password" name="password2" placeholder="Confirm Password" required>
                 </div>
-                <button type="submit">Sign Up</button>
+                <button class="btn__signup-login" type="submit">Sign Up</button>
                 <div class="account-exist">
                   Already have an account? <a href="#" id="login">Login</a>
                 </div>
@@ -71,7 +71,7 @@
                 </div>
                 <a href="#">Forget password?</a>
               </div>
-              <button type="submit">Log In</button>
+              <button class="btn__signup-login" type="submit">Log In</button>
               <div class="account-exist">
                 Don't have an account? <a href="#" id="signup">Signup</a>
               </div>
@@ -81,6 +81,6 @@
     </div>
     
 
-    <script src="./js/app.js"></script>
+    <script src="./js/login.js"></script>
   </body>
 </html>
