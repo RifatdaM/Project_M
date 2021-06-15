@@ -675,31 +675,31 @@ nav img {
 }
 
 /* form */
-.col .inputBox{
+.col .inputBox {
   margin-bottom: 2rem;
 }
-.home-form{
+.home-form {
   margin-top: 4rem;
 }
-.home-form .row100{
+.home-form .row100 {
   position: relative;
   width: 100%;
 }
-.home-form .row100 .col{
+.home-form .row100 .col {
   position: relative;
   width: 100%;
   padding: 0 10px;
-  margin: 30px 0 10px; 
-  transition: .5s;
+  margin: 30px 0 10px;
+  transition: 0.5s;
 }
-.home-form .row100 .inputBox{
+.home-form .row100 .inputBox {
   position: relative;
   width: 100%;
   height: 40px;
   color: var(--color-main);
 }
 .home-form .row100 .inputBox input,
-.home-form .row100 .inputBox.textarea textarea{
+.home-form .row100 .inputBox.textarea textarea {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -712,7 +712,7 @@ nav img {
   z-index: 1;
   color: var(--black4);
 }
-.home-form .row100 .inputBox .ftext{
+.home-form .row100 .inputBox .ftext {
   position: absolute;
   top: 0;
   left: 10px;
@@ -723,65 +723,64 @@ nav img {
   pointer-events: none;
 }
 .home-form .row100 .inputBox input:focus + .ftext,
-.home-form .row100 .inputBox input:valid + .ftext{
+.home-form .row100 .inputBox input:valid + .ftext {
   top: -30px;
   left: 0px;
   font-size: 1.4rem;
 }
-.home-form .row100 .inputBox .line{
+.home-form .row100 .inputBox .line {
   position: absolute;
   bottom: 0;
   display: block;
   width: 100%;
   height: 2px;
   background: var(--text-light);
-  transition: .5s;
+  transition: 0.5s;
   pointer-events: none;
 }
 .home-form .row100 .inputBox input:focus ~ .line,
-.home-form .row100 .inputBox input:valid ~ .line{
+.home-form .row100 .inputBox input:valid ~ .line {
   height: 100%;
 }
-.home-form .row100 .inputBox.textarea{
+.home-form .row100 .inputBox.textarea {
   position: relative;
   width: 100%;
   height: 100px;
   padding: 10px 0;
 }
-.home-form .row100 .inputBox.textarea textarea{
+.home-form .row100 .inputBox.textarea textarea {
   height: 100%;
   resize: none;
 }
 .home-form .row100 .inputBox textarea:focus + .ftext,
-.home-form .row100 .inputBox textarea:valid + .ftext{
+.home-form .row100 .inputBox textarea:valid + .ftext {
   top: -30px;
   left: 0px;
   font-size: 1.4rem;
 }
 .home-form .row100 .inputBox textarea:focus ~ .line,
-.home-form .row100 .inputBox textarea:valid ~ .line{
+.home-form .row100 .inputBox textarea:valid ~ .line {
   height: 100%;
 }
 
 /* footer */
 
-
 /* LOGIN PAGE */
 /* login */
-.login-body{
+.login-body {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
 }
-.login-wrapper{
+.login-wrapper {
   padding: 50px 25px;
   max-width: 668px;
   width: 100%;
   margin: auto;
 }
-.login-wrapper::before{
+.login-wrapper::before {
   content: "";
   position: absolute;
   top: 0;
@@ -795,26 +794,25 @@ nav img {
   min-height: 100vh;
   z-index: -9999;
 }
-.login-wrapper .login-headline{
+.login-wrapper .login-headline {
   text-align: center;
   padding-bottom: 48px;
-  
 }
-.login-wrapper .login-headline h1{
+.login-wrapper .login-headline h1 {
   font-family: bebas, "Poppins", sans-serif;
   font-weight: 100;
   font-size: 4.2rem;
   line-height: 52px;
 }
-.login-wrapper .login-form{
+.login-wrapper .login-form {
   max-width: 350px;
   width: 100%;
   margin: auto;
 }
-.login-wrapper .form-group{
-  margin-bottom:15px ; 
+.login-wrapper .form-group {
+  margin-bottom: 15px;
 }
-.login-wrapper .form-group input{
+.login-wrapper .form-group input {
   display: block;
   font-size: 1.6rem;
   line-height: 2.4rem;
@@ -827,66 +825,64 @@ nav img {
   box-shadow: none;
   width: 100%;
 }
-.login-wrapper .form-group input:focus{
+.login-wrapper .form-group input:focus {
   outline: none;
 }
-.login-wrapper .form-group input::placeholder{
+.login-wrapper .form-group input::placeholder {
   color: var(--text-dark);
   font-weight: 400;
   font-size: 1.4rem;
 }
-.login-wrapper .account-exist{
+.login-wrapper .account-exist {
   color: var(--text-dark);
-  border-top:1px solid var(--gray3) ;
+  border-top: 1px solid var(--gray3);
   padding-top: 20px;
   text-align: center;
 }
-.login-wrapper .account-exist a{
+.login-wrapper .account-exist a {
   color: var(--color-main);
 }
-.login-wrapper .forget-password{
+.login-wrapper .forget-password {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 15px 0;
 }
-.login-wrapper .forget-password a{
+.login-wrapper .forget-password a {
   color: var(--color-main);
 }
-.login-wrapper .forget-password .check-box{
+.login-wrapper .forget-password .check-box {
   font-size: 1.5rem;
   color: var(--text-dark);
 }
-.login-signup.inActive{
+.login-signup.inActive {
   display: none;
 }
-.login-signin{
+.login-signin {
   display: none;
 }
-.login-signin.active{
+.login-signin.active {
   display: block;
 }
-@media (max-width:1030px) {
-  .login-wrapper::before{
-    left:-25%;
+@media (max-width: 1030px) {
+  .login-wrapper::before {
+    left: -25%;
     min-height: 100vh;
     height: 500px;
   }
 }
 @media (max-width: 757px) {
-  .login-wrapper{
+  .login-wrapper {
     max-width: 550px;
   }
-  .login-wrapper .login-headline h1{
+  .login-wrapper .login-headline h1 {
     font-size: 2.2rem;
     line-height: 25px;
   }
 }
 
-
-
 /* Buttons all */
-.login-wrapper .btn__signup-login{
+.login-wrapper .btn__signup-login {
   width: 100%;
   margin: 15px 0 30px;
   font-size: 1.4rem;
@@ -901,10 +897,10 @@ nav img {
   cursor: pointer;
   text-align: center;
 }
-.login-wrapper .btn__signup-login:focus{
+.login-wrapper .btn__signup-login:focus {
   outline: none;
 }
-.catalog_download .btn-download{
+.catalog_download .btn-download {
   width: 100%;
   font-size: 1.4rem;
   line-height: 22px;
@@ -918,22 +914,72 @@ nav img {
   cursor: pointer;
   text-align: center;
 }
-.catalog_download .btn-download:hover{
+.catalog_download .btn-download:hover {
   color: var(--white);
   background-color: var(--color-main);
   border: none;
   transition: all 0.3s;
 }
-.catalog_download .btn-download:focus{
+.catalog_download .btn-download:focus {
   outline: none;
 }
 
 /* download Page */
-.catalog_img{
+.catalog_img {
   padding: 6px;
 }
-.catalog .catalog_name{
- font-size: 2.6rem;
- font-family:  bebas, "Poppins", sans-serif;
- text-align: center;
+.catalog .catalog_name {
+  font-size: 2.6rem;
+  font-family: bebas, "Poppins", sans-serif;
+  text-align: center;
+}
+/* contact us page */
+.contactUs_title-text{
+text-align: center;
+}
+.contact__us-body {
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  align-items: center;
+}
+.contact-in {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 var(--gray);
+}
+.contact-map {
+  width: 100%;
+  height: auto;
+  flex: 50%;
+}
+.contact-map iframe {
+  width: 100%;
+  height: 100%;
+}
+.contact-form {
+  width: 100%;
+  height: auto;
+  flex: 50%;
+  padding: 32px;
+}
+@media (max-width: 757px) {
+  .contact-form {
+    padding: 0;
+    font-size: 1.4rem;
+  }
+  .contact-form .home-form .row100 .inputBox input,
+  .contact-form .home-form .row100 .inputBox.textarea textarea {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 457px){
+  .contact-in {
+    width: 90%;
+  }
 }
