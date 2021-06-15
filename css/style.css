@@ -904,3 +904,36 @@ nav img {
 .login-wrapper .btn__signup-login:focus{
   outline: none;
 }
+.catalog_download .btn-download{
+  width: 100%;
+  font-size: 1.4rem;
+  line-height: 22px;
+  font-weight: 700;
+  padding: 12px;
+  height: 48px;
+  text-transform: uppercase;
+  color: var(--color-main);
+  background-color: transparent;
+  border: 2px solid var(--color-main);
+  cursor: pointer;
+  text-align: center;
+}
+.catalog_download .btn-download:hover{
+  color: var(--white);
+  background-color: var(--color-main);
+  border: none;
+  transition: all 0.3s;
+}
+.catalog_download .btn-download:focus{
+  outline: none;
+}
+
+/* download Page */
+.catalog_img{
+  padding: 6px;
+}
+.catalog .catalog_name{
+ font-size: 2.6rem;
+ font-family:  bebas, "Poppins", sans-serif;
+ text-align: center;
+}
