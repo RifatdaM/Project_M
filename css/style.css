@@ -975,6 +975,84 @@ text-align: center;
 .page-not-found a:focus{
   color: var(--color-main);
 }
+@media (max-width: 723px){
+  .page-not-found h1{
+    letter-spacing: 1px;
+    font-size: 4.8rem;
+  }
+}
+@media (max-width: 527px){
+  .page-not-found img{
+    height: 100px;
+  }
+  .page-not-found h1{
+    font-size: 3.2rem;
+    letter-spacing: 1px;
+  }
+}
+
+/* Under maintenance Page */
+
+.um_grid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 2.4rem;
+  grid-auto-rows: minmax(100px, auto);
+  align-items: center;
+  justify-items: center;
+  min-height: 100vh;
+}
+.um_grid img{
+  height: 400px;
+}
+
+.um-text h1{
+  text-align: end;
+  font-size: 4.8rem;
+  letter-spacing: 2px;
+  font-family: bebas, "Poppins", sans-serif;
+  color: var(--color-main);
+}
+.um-text h3{
+  text-align: end;
+  font-size: 3.2rem;
+}
+@media (max-width: 1044px){
+  .um-text h1{
+    letter-spacing: 1px;
+    font-size: 3.8rem;
+  }
+  .um-text h3{
+    font-size: 2.4rem;
+  }
+}
+@media (max-width: 828px){
+  .um_grid img{
+    height: 300px;
+  }
+  .um_grid{
+    grid-template-columns: 1fr;
+    min-height: 60vh;
+  }
+}
+@media (max-width: 527px){
+  .um_grid img{
+    height: 150px;
+  }
+  .um-text h1{
+    font-size: 2.4rem;
+    letter-spacing: 1px;
+  }
+  .um-text h3{
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+  }
+  .um_grid{
+    grid-template-columns: 1fr;
+    min-height: 40vh;
+  }
+}
+
 
 /* Buttons all */
 .login-wrapper .btn__signup-login {
