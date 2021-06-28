@@ -1085,6 +1085,7 @@ nav img {
 .btn-outline:hover{
   color: var(--color-main);
   background-color: var(--white);
+
 }
 .product__btn {
   width: 100%;
